@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!----------  Modal  ---------->
+    <div class="black-background" id="model">
+        <div class="model-box">
+            <div class="white-background">
+                <button id="model" type="button" class="btn btn-primary">닫기</button>
+                <h4>Modal title</h4>
+                <img src="img/img1.jpg" alt="">
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <button id="model" onclick="closeModal()" type="button" class="btn btn-primary">닫기</button>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Shirts Factory</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--  메인사진  -->
+    <div class="jumbotron">
+
+        <div class="container text-center">
+            <h1 class="display-4">IT'S NICE TO MEET YOU</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-danger btn-lg mt-3" href="#" role="button">Learn more</a>
+        </div>
+
+    </div>
+
+    <!--    SERVICES   -->
+    <div class="container">
+        <div class="title">
+            <h2>SERVICES</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 services ">
+                <img src="img/1.png" alt="">
+                <strong>E-Commerce</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-sm-4 services">
+                <img src="img/2.png" alt="">
+                <strong>Responsive Design</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-sm-4 services">
+                <img src="img/3.png" alt="">
+                <strong>E-Commerce</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--    PORTFOLIO   -->
+    <div class="portfolio">
+        <div class="container">
+            <div class="title">
+                <h2>PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 portfolio-item">
+                    <div style="position:relative" class="">
+                        <!--yellow-box 안에 relative 만들어준다-->
+                        <div class="yellow-box" id="box">
+                            <p>View Sample</p>
+                        </div>
+                        <img src="img/img1.jpg " alt=" ">
+                    </div>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item ">
+                    <a href=" "><img src="img/img2.jpg " alt=" "></a>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item ">
+                    <a href=" "><img src="img/img3.jpg " alt=" "></a>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item ">
+                    <a href=" "><img src="img/img4.jpg " alt=" "></a>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item ">
+                    <a href=" "><img src="img/img5.jpg " alt=" "></a>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item ">
+                    <a href=" "><img src="img/img6.jpg " alt=" "></a>
+                    <div class="portfolio-caption ">
+                        <h4>Threads</h4>
+                        <p class="text-muted ">Illustration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    ABOUT   -->
+    <div class="about ">
+        <div class="container ">
+            <div class="title">
+                <h2>PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="row ">
+
+                <div class="container ">
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-image">
+                                        <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>2009-2011</h4>
+                                            <h4 class="subheading">Our Humble Beginnings</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-image">
+                                        <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>March 2011</h4>
+                                            <h4 class="subheading">An Agency is Born</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-image">
+                                        <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>December 2012</h4>
+                                            <h4 class="subheading">Transition to Full Service</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-image">
+                                        <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>July 2014</h4>
+                                            <h4 class="subheading">Phase Two Expansion</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-image">
+                                        <h4>Be Part
+                                            <br>Of Our
+                                            <br>Story!</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!--    main-forms   -->
+    <div class="main-form ">
+        <div class="container ">
+            <form action=" " onsubmit=" ">
+                <div class="title ">
+                    <h2>CONTACT US</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="form-row ">
+                    <div class="col-lg-6 ">
+                        <div class="form-group ">
+                            <label for="exampleFormControlInput1 ">Email address</label>
+                            <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="name@example.com ">
+                        </div>
+                        <div class="form-group ">
+                            <label for="exampleFormControlSelect1 ">Example select</label>
+                            <select class="form-control " id="exampleFormControlSelect1 ">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="form-group ">
+                            <label for="exampleFormControlTextarea1 ">Example textarea</label>
+                            <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group form-check ">
+                        <input type="checkbox " class="form-check-input " id="exampleCheck1 ">
+                        <label class="form-check-label " for="exampleCheck1 ">Check me out</label>
+                    </div>
+                    <button type="submit " class="btn btn-primary ">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js " integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em " crossorigin="anonymous "></script>
+
+
+    <script>
+        /*노랑이 박스클릭했을때 모달창잉 나타남*/
+        //       function showModal() { // document.getElementById('model').style.display = 'block'; // } // // function closeModal() { // document.getElementById('model').style.display = 'none'; // }
+
+        document.getElementById('box').addEventListener('click', function() {
+            document.getElementById('modal').style.display = 'block';
+        });
+        document.getElementById('box').addEventListener('click', function() {
+            document.getElementById('modal').style.display = 'block';
+        });
+
+        //        function plus() {
+        //            console.log(2 + 5);
+        //        }
+        //
+        //        plus();
+        //        function plus(a, b) {
+        //            console.log(a + b);
+        //        }
+        //
+        //        plus(200);
+        //        plus(sdfsdfds);
+
+    </script>
+</body>
+
+</html>
